@@ -7,27 +7,43 @@ body{
 }
 h1{
   font-size: 50px;
-  
+  margin-top: 10%; 
 }
-section{
+.hero-banner2{
+  margin-top: 5%;
+}
+.develop-limit{
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.flexible-container{
   display: flex;
+  padding-left: 10%;
+  
 }
 .half-width{
   width: 50%;
-  padding-left: 5%;
-  
-  
+  padding-left: 5%;  
 }
 .half-width img{
-  width: 70%;
-  
+  width: 70%; 
+}
+.illustration-image img{
+  width: 20%;
 }
 .half-width2{
   border-left: solid 5px orangered;
   padding-left: 10px;
   
 }
-
+p{
+  margin-top: 5%;
+}
+.sub-heading{
+  text-align: center;
+  margin-top: 10%;
+}
 .link-button{
   background-image: linear-gradient( #2b5876 0%, #4e4376  51%, #2b5876  100%);
   color: white;
@@ -36,3 +52,51 @@ section{
   text-decoration: none;
 
 }
+.know-community{
+  display: flex;
+  width: 50%;
+  padding-left: 15%;
+}
+.new-button{
+  padding-top: 10px;
+}
+.know-community img{
+  width: 300%;
+  padding-top: 5px;  
+}
+
+.img-community{
+  padding-left: 30%;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  }
+.footer-heading{
+  padding-top: 60px;
+}
+h3{
+  padding-bottom: 100px;
+}
+ .box-1{
+   background-color: coral;
+   border: 2px solid rgba(230, 71, 9, 0.979);
+   border-radius: 5px;
+   padding-left: 7px;
+
+ }
+ .box-2{
+   background-color: crimson;
+   border: 2px solid rgb(131, 65, 78);
+   border-radius: 5px;
+   padding-left: 7px;
+   margin-left: 20px;
+ }
+ .box-3{
+   background-color: darkmagenta;
+   margin-left: 20px;
+   border: 2px solid rgba(230, 71, 9, 0.979);
+   border-radius: 5px;
+   padding-left: 7px;
+ }
